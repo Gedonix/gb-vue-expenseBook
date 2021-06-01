@@ -1,0 +1,160 @@
+@import url('./font.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.active {
+    color: darkred;
+}
+
+.passive {
+    color: black;
+}
+
+.warning {
+    margin-top: 10px;
+    width: 350px;
+    height: 20px;
+    color: brown;
+}
+
+.container {
+    margin: 10px auto 10px;
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 20px;
+}
+
+.form_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.addnewcost {
+    padding: 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.addnewcost button {
+    width: 200px;
+    height: 30px;
+}
+
+.showgb {
+    height: 100px;
+    padding: 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.showgb button {
+    width: 200px;
+    height: 30px;
+}
+
+.radio {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.inputs input {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+.inputs select {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+.inputs button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.list_wrapper {
+    width: 100%;
+    padding: 15px 20px 0;
+}
+
+.list_header {
+    display: flex;
+    padding: 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.cell {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.list_cell_1 {
+    width: 25%
+}
+
+.list_cell_2 {
+    width: 25%
+}
+
+.list_cell_3 {
+    width: 35%
+}
+
+.list_cell_4 {
+    width: 15%
+}
+
+.list_table {
+    display: flex;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer button {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
